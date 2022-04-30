@@ -1,0 +1,26 @@
+.container{
+    width: 980px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #4e4e4e;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.container .film{
+    height: 180px;
+    cursor: pointer;
+    border: 1px solid #2a2a2a;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.container .film:hover{
+    border: 3px solid #2a2a2a;
+}
+
+.container .film img{
+    width: 100%;
+    height: 100%;
+}

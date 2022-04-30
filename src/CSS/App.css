@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    background: url("./../IMG/bg.jpg") no-repeat;
+    background-size: 100%;
+}

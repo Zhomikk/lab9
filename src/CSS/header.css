@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background: black;
+}
+
+.logo{
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    font-family: "Berlin Sans FB";
+    margin-left: 200px;
+}
+
+.search{
+    margin-right: 200px;
+}
+
+.search #login{
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: .1px solid #3ade3a;
+    box-shadow: 0 0 2px #8a7676;
+    background: #3ade3a;
+    transition: 0.3s;
+}
+
+.search #login:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #8a7676;
+}
+
+.search #signup{
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: .1px solid #ee3333;
+    box-shadow: 0 0 2px #8a7676;
+    background: #ee3333;
+    transition: 0.3s;
+}
+
+.search #signup:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #8a7676;
+}
+
+.search #submit{
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: .1px solid #3c3c3c;
+    box-shadow: 0 0 2px #9e9e9e;
+    background: #3c3c3c;
+    color: white;
+    transition: .4s;
+}
+
+.search #submit:hover{
+    border: .1px solid white;
+    box-shadow: 0 0 5px #9e9e9e;
+    background: white;
+    color: #3c3c3c;
+    transform: scale(1.1);
+}
+
+.search input{
+    outline: none;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: .1px solid black;
+    background: #4e4e4e;
+    color: white;
+}
+
+.search input::placeholder{
+    color: black;
+}
